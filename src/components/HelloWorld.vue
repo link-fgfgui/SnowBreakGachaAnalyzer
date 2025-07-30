@@ -188,6 +188,7 @@ for (let i = 0; i < languages.length; i++) {
   const element = languages[i];
   if (i18n[element] !== undefined) {
     lang.value = element;
+    break;
   }
 }
 // file input template props
